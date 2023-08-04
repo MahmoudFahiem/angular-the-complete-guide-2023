@@ -4,6 +4,7 @@
   "tasks": [
     {
       "type": "npm",
+      "label": "$(play) npm : start",
       "script": "start",
       "isBackground": true,
       "problemMatcher": {
@@ -22,6 +23,7 @@
     },
     {
       "type": "npm",
+      "label": "npm : test",
       "script": "test",
       "isBackground": true,
       "problemMatcher": {
